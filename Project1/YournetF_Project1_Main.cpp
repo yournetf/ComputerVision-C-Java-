@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
+#include <string>
 using namespace std;
 
 class image{
@@ -22,38 +24,112 @@ class image{
             }
         }
 
-        void printIMGARY(){
-            for(int i = 0; i < numRows; i++){
-                for (int j = 0; j < numCols; j++)
-                {
-                    cout << imgAry[i][j];
-                }
-                cout << endl;
-            }
-        }
-
         void prettyPrint(int** imgAry, ofstream& logFile){
             logFile << "Enter PrettyPrint()" << endl;
             logFile << "Rows: " <<numRows << "\n" << 
                     "Columns: " <<numCols << "\n" <<
                     "Mininmum Value: " << minVal << "\n" <<
                     "Maximum Value: " << maxVal << "\n" << endl;
+            stringstream maxValStream;
+            maxValStream << maxVal;
+            string maxValString = maxValStream.str();
+
+            int Width = maxValString.length();
+
+            int i = 0;
+            while (i < numRows){
+                int j = 0;
+                while (j < numCols){
+                    logFile << imgAry[i][j];
+
+                    stringstream imgAryStream;
+                    imgAryStream << imgAry[i][j];
+                    string imgAryString = imgAryStream.str();
+
+                    int WW = imgAryString.length();
+                    
+                    while (WW <= Width){
+                        logFile << " ";
+                        WW++;
+                    }
+                    j++;
+                }
+                logFile << "\n";
+                i++;
+            }
+            logFile << "leaving PrettyPrint()" << endl;
         }
 
         void computeHist(int** imgAry, int* histAry, ofstream& logFile){
+            logFile << "Entering computeHist()" << endl;
             
+            int i = 0;
+            while (i < numRows){
+                int j = 0;
+                while(j < numCols){
+                    int val = imgAry[i][j];
+                    if((val < minVal) || (val > maxVal)){
+                        logFile << "imgAry [" << i << "][" << j << "] is not within the minVal and maxVal" << endl;
+                        exit(1);
+                    }
+                    histAry[val]++;
+                    j++;
+                }
+                i++;
+            }
+            logFile << "leaving computeHist()" << endl;
         }
 
         void printHist(int* histAry, ofstream& histCountFile, ofstream& logFile){
-
+            logFile << "Entering printHist()" << endl;
+            histCountFile << numRows << " " << numCols << " " << minVal << " " << maxVal << " //image header" << endl;
+            
+            for(int i = 0; i < (maxVal + 1); i++){
+                histCountFile << i << " " << histAry[i] << endl;
+            }
         }
 
         void dispHist(int* histAry, ofstream& histCountFile, ofstream& logFile){
-
+            histCountFile << numRows << " " << numCols << " " << minVal << " " << maxVal << " //image header" << endl;
+            int i = 0;
+            while (i < (maxVal + 1)){
+                histCountFile << i << " ";
+                histCountFile << "(" << histAry[i] << "): ";
+                for (int j = 0; j < histAry[i]; j++){
+                    histCountFile << "+";
+                }
+                histCountFile << "\n";
+                i++;
+            }
+            
         }
 
-        void binaryThreshold(int** imgAry, ofstream& binThrFilem, int thrVal, ofstream& logFile){
+        void binaryThreshold(int** imgAry, ofstream& binThrFile, int thrVal, ofstream& logFile){
+            logFile << "Entering binaryThreshold()" << endl;
+            logFile << "The resut of the binary thresholding using " << thrVal << " as the threshold value: " << endl;
+            binThrFile << numRows << " " << numCols << " " << minVal << " " << maxVal << " //image header" << endl;
+            logFile << numRows << " " << numCols << " " << minVal << " " << maxVal << " //image header" << endl;
 
+            int i = 0;
+            while (i < numRows){
+                int j = 0;
+                while (j < numCols){
+                    if(imgAry[i][j] >= thrVal){
+                        binThrFile << "1 ";
+                        logFile << "1 ";
+                    }
+                    else{
+                        binThrFile << "0 ";
+                        logFile << "0 ";
+                    }
+                    j++;
+                }
+                binThrFile << "\n";
+                logFile << "\n";
+                i++;
+            }
+            logFile << "leaving binaryThreshold()" << endl;
+            
         }
 
         int getNumRows() const {
@@ -194,6 +270,12 @@ int main(int argc, char** argv){
     img->computeHist(imgAry, histAry, logFile);
     img->printHist(histAry, histCountFile, logFile);
     img->dispHist(histAry, histGraphFile, logFile);
+
+    int thrVal = stoi(argv[2]);
+    img->setThrVal(thrVal);
+    logFile << "The threshold value = " << img->getThrVal() << endl;
+    img->binaryThreshold(imgAry, binThrFile, thrVal, logFile);
+
 
     
 
