@@ -1,0 +1,566 @@
+Entering biGaussian methodEntering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 31 result: 3.0789473684210527
+Entering computeVar() method
+Leaving computeVar() method returning result: 3.853526979048808leaving fitGauss method, sum: 142.0
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 32.9011569416499
+Entering computeVar() method
+Leaving computeVar() method returning result: 300.7915109991903leaving fitGauss method, sum: 3407.073678642726
+In biGaussian(): dividePt: 6 sum: 142.0 sum2: 3407.073678642726 total: 3549.073678642726 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 31 result: 3.6549295774647885
+Entering computeVar() method
+Leaving computeVar() method returning result: 4.9676852665287505leaving fitGauss method, sum: 914.9372394873212
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 33.0919452887538
+Entering computeVar() method
+Leaving computeVar() method returning result: 297.74319025792806leaving fitGauss method, sum: 3390.0544665706902
+In biGaussian(): dividePt: 7 sum: 914.9372394873212 sum2: 3390.0544665706902 total: 4304.991706058012 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 33 result: 4.285714285714286
+Entering computeVar() method
+Leaving computeVar() method returning result: 6.456957328385899leaving fitGauss method, sum: 1015.2177346810789
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 33.311877394636014
+Entering computeVar() method
+Leaving computeVar() method returning result: 294.4510342882265leaving fitGauss method, sum: 3357.316483213786
+In biGaussian(): dividePt: 8 sum: 1015.2177346810789 sum2: 3357.316483213786 total: 4372.534217894865 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 45 result: 5.045454545454546
+Entering computeVar() method
+Leaving computeVar() method returning result: 7.8597736255839leaving fitGauss method, sum: 1083.9648467962274
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 33.606201550387595
+Entering computeVar() method
+Leaving computeVar() method returning result: 290.31780791707143leaving fitGauss method, sum: 3281.1454610077517
+In biGaussian(): dividePt: 9 sum: 1083.9648467962274 sum2: 3281.1454610077517 total: 4365.11030780398 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 56 result: 5.8478260869565215
+Entering computeVar() method
+Leaving computeVar() method returning result: 9.244066676136676leaving fitGauss method, sum: 1126.212555634868
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 33.967488201363395
+Entering computeVar() method
+Leaving computeVar() method returning result: 285.53436884424leaving fitGauss method, sum: 3243.866463180091
+In biGaussian(): dividePt: 10 sum: 1126.212555634868 sum2: 3243.866463180091 total: 4370.079018814959 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 70 result: 6.687861271676301
+Entering computeVar() method
+Leaving computeVar() method returning result: 10.614214803781794leaving fitGauss method, sum: 1142.6654032641718
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 34.41559829059829
+Entering computeVar() method
+Leaving computeVar() method returning result: 279.89966324968947leaving fitGauss method, sum: 3235.212573329876
+In biGaussian(): dividePt: 11 sum: 1142.6654032641718 sum2: 3235.212573329876 total: 4377.877976594047 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 90 result: 7.577981651376147
+Entering computeVar() method
+Leaving computeVar() method returning result: 11.922406793023622leaving fitGauss method, sum: 1160.7748146705417
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 34.99233716475096
+Entering computeVar() method
+Leaving computeVar() method returning result: 272.9143061490631leaving fitGauss method, sum: 3265.7707942148286
+In biGaussian(): dividePt: 12 sum: 1160.7748146705417 sum2: 3265.7707942148286 total: 4426.54560888537 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 120 result: 8.532374100719425
+Entering computeVar() method
+Leaving computeVar() method returning result: 12.912704592883054leaving fitGauss method, sum: 1124.09905875343
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 35.77306168647425
+Entering computeVar() method
+Leaving computeVar() method returning result: 263.5637944893004leaving fitGauss method, sum: 3457.9322549380745
+In biGaussian(): dividePt: 13 sum: 1124.09905875343 sum2: 3457.9322549380745 total: 4582.031313691505 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 150 result: 9.48158640226629
+Entering computeVar() method
+Leaving computeVar() method returning result: 13.808624075439822leaving fitGauss method, sum: 1098.463400051859
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 36.78250591016548
+Entering computeVar() method
+Leaving computeVar() method returning result: 251.16580127669172leaving fitGauss method, sum: 3754.586158779061
+In biGaussian(): dividePt: 14 sum: 1098.463400051859 sum2: 3754.586158779061 total: 4853.04955883092 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 192 result: 10.447661469933184
+Entering computeVar() method
+Leaving computeVar() method returning result: 14.362847624978654leaving fitGauss method, sum: 1051.4140499896653
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 38.152882205513784
+Entering computeVar() method
+Leaving computeVar() method returning result: 233.07744498432385leaving fitGauss method, sum: 4434.4516084721445
+In biGaussian(): dividePt: 15 sum: 1051.4140499896653 sum2: 4434.4516084721445 total: 5485.865658461809 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 11.310469314079423
+Entering computeVar() method
+Leaving computeVar() method returning result: 14.855080447970229leaving fitGauss method, sum: 981.8891866453396
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 192 result: 39.78336686787391
+Entering computeVar() method
+Leaving computeVar() method returning result: 208.97326884892806leaving fitGauss method, sum: 4644.247994598961
+In biGaussian(): dividePt: 16 sum: 981.8891866453396 sum2: 4644.247994598961 total: 5626.1371812443 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 12.003076923076923
+Entering computeVar() method
+Leaving computeVar() method returning result: 15.6132452534088leaving fitGauss method, sum: 842.4093941939508
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 41.42007168458781
+Entering computeVar() method
+Leaving computeVar() method returning result: 181.6501558734811leaving fitGauss method, sum: 4345.937217009637
+In biGaussian(): dividePt: 17 sum: 842.4093941939508 sum2: 4345.937217009637 total: 5188.346611203588 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 12.58695652173913
+Entering computeVar() method
+Leaving computeVar() method returning result: 16.426812222751252leaving fitGauss method, sum: 754.8821148270217
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 43.024446142093204
+Entering computeVar() method
+Leaving computeVar() method returning result: 151.74716919149643leaving fitGauss method, sum: 3954.402189607627
+In biGaussian(): dividePt: 18 sum: 754.8821148270217 sum2: 3954.402189607627 total: 4709.284304434648 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 13.032418952618453
+Entering computeVar() method
+Leaving computeVar() method returning result: 17.36591348014706leaving fitGauss method, sum: 678.7746538704027
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 44.353177795655675
+Entering computeVar() method
+Leaving computeVar() method returning result: 124.72958818833742leaving fitGauss method, sum: 3515.810794467872
+In biGaussian(): dividePt: 19 sum: 678.7746538704027 sum2: 3515.810794467872 total: 4194.585448338275 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 13.38262910798122
+Entering computeVar() method
+Leaving computeVar() method returning result: 18.560959286727314leaving fitGauss method, sum: 618.4435213879333
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 45.41575859178541
+Entering computeVar() method
+Leaving computeVar() method returning result: 101.84899697005146leaving fitGauss method, sum: 3053.070378741945
+In biGaussian(): dividePt: 20 sum: 618.4435213879333 sum2: 3053.070378741945 total: 3671.5139001298785 minSumDiff: 3549.073678642726 bestThr: 6
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 13.711098717233687
+Entering computeVar() method
+Leaving computeVar() method returning result: 19.898631493586432leaving fitGauss method, sum: 554.9964613996196
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 46.40052242054854
+Entering computeVar() method
+Leaving computeVar() method returning result: 79.76672831461553leaving fitGauss method, sum: 2526.2531533879937
+In biGaussian(): dividePt: 21 sum: 554.9964613996196 sum2: 2526.2531533879937 total: 3081.2496147876136 minSumDiff: 3081.2496147876136 bestThr: 21
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.014965259219668
+Entering computeVar() method
+Leaving computeVar() method returning result: 20.771319249777072leaving fitGauss method, sum: 478.3786931990776
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 47.293375394321764
+Entering computeVar() method
+Leaving computeVar() method returning result: 59.072449868457845leaving fitGauss method, sum: 1925.559530787748
+In biGaussian(): dividePt: 22 sum: 478.3786931990776 sum2: 1925.559530787748 total: 2403.9382239868255 minSumDiff: 2403.9382239868255 bestThr: 22
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.190277051751176
+Entering computeVar() method
+Leaving computeVar() method returning result: 21.32900337385443leaving fitGauss method, sum: 461.78048556596906
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 47.78135048231511
+Entering computeVar() method
+Leaving computeVar() method returning result: 47.62142308219641leaving fitGauss method, sum: 1539.789869325949
+In biGaussian(): dividePt: 23 sum: 461.78048556596906 sum2: 1539.789869325949 total: 2001.570354891918 minSumDiff: 2001.570354891918 bestThr: 23
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.281427832384894
+Entering computeVar() method
+Leaving computeVar() method returning result: 21.995394602137974leaving fitGauss method, sum: 464.8410505195202
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.011126564673155
+Entering computeVar() method
+Leaving computeVar() method returning result: 42.31147985372599leaving fitGauss method, sum: 1339.833770167228
+In biGaussian(): dividePt: 24 sum: 464.8410505195202 sum2: 1339.833770167228 total: 1804.6748206867483 minSumDiff: 1804.6748206867483 bestThr: 24
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.37109174782163
+Entering computeVar() method
+Leaving computeVar() method returning result: 22.451334258495354leaving fitGauss method, sum: 473.2450728995572
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.213183730715286
+Entering computeVar() method
+Leaving computeVar() method returning result: 37.77095003780108leaving fitGauss method, sum: 1154.6642021929122
+In biGaussian(): dividePt: 25 sum: 473.2450728995572 sum2: 1154.6642021929122 total: 1627.9092750924694 minSumDiff: 1627.9092750924694 bestThr: 25
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.425293217746049
+Entering computeVar() method
+Leaving computeVar() method returning result: 22.957903548353404leaving fitGauss method, sum: 482.33930859882554
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.32221700328793
+Entering computeVar() method
+Leaving computeVar() method returning result: 35.40308338076624leaving fitGauss method, sum: 1052.0139291819808
+In biGaussian(): dividePt: 26 sum: 482.33930859882554 sum2: 1052.0139291819808 total: 1534.3532377808062 minSumDiff: 1534.3532377808062 bestThr: 26
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.478172588832487
+Entering computeVar() method
+Leaving computeVar() method returning result: 23.496426044004213leaving fitGauss method, sum: 493.16362650636364
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.41698113207547
+Entering computeVar() method
+Leaving computeVar() method returning result: 33.4267993015328leaving fitGauss method, sum: 962.1304333038925
+In biGaussian(): dividePt: 27 sum: 493.16362650636364 sum2: 962.1304333038925 total: 1455.2940598102562 minSumDiff: 1455.2940598102562 bestThr: 27
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.528816986855409
+Entering computeVar() method
+Leaving computeVar() method returning result: 24.13023142292967leaving fitGauss method, sum: 511.25750401533816
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.49810606060606
+Entering computeVar() method
+Leaving computeVar() method returning result: 31.807281393398966leaving fitGauss method, sum: 886.1718376714621
+In biGaussian(): dividePt: 28 sum: 511.25750401533816 sum2: 886.1718376714621 total: 1397.4293416868002 minSumDiff: 1397.4293416868002 bestThr: 28
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.58308157099698
+Entering computeVar() method
+Leaving computeVar() method returning result: 24.772566131312185leaving fitGauss method, sum: 532.5044324179017
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.57604562737642
+Entering computeVar() method
+Leaving computeVar() method returning result: 30.32233907965922leaving fitGauss method, sum: 813.6350439576996
+In biGaussian(): dividePt: 29 sum: 532.5044324179017 sum2: 813.6350439576996 total: 1346.1394763756014 minSumDiff: 1346.1394763756014 bestThr: 29
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.63371801304566
+Entering computeVar() method
+Leaving computeVar() method returning result: 25.404377129634273leaving fitGauss method, sum: 553.7366642947518
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.6413924654268
+Entering computeVar() method
+Leaving computeVar() method returning result: 29.13806219495595leaving fitGauss method, sum: 755.9647550261195
+In biGaussian(): dividePt: 30 sum: 553.7366642947518 sum2: 755.9647550261195 total: 1309.7014193208713 minSumDiff: 1309.7014193208713 bestThr: 30
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.67983991995998
+Entering computeVar() method
+Leaving computeVar() method returning result: 26.003411014952626leaving fitGauss method, sum: 573.9683732110594
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.69488283118125
+Entering computeVar() method
+Leaving computeVar() method returning result: 28.219911067990193leaving fitGauss method, sum: 711.6663638497122
+In biGaussian(): dividePt: 31 sum: 573.9683732110594 sum2: 711.6663638497122 total: 1285.6347370607716 minSumDiff: 1285.6347370607716 bestThr: 31
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.72055888223553
+Entering computeVar() method
+Leaving computeVar() method returning result: 26.54473571485112leaving fitGauss method, sum: 592.9943491108478
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.737296260786195
+Entering computeVar() method
+Leaving computeVar() method returning result: 27.533741232612975leaving fitGauss method, sum: 678.5548714215078
+In biGaussian(): dividePt: 32 sum: 592.9943491108478 sum2: 678.5548714215078 total: 1271.5492205323555 minSumDiff: 1271.5492205323555 bestThr: 32
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.754980079681275
+Entering computeVar() method
+Leaving computeVar() method returning result: 27.152571176329275leaving fitGauss method, sum: 616.1132286412923
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.76945244956772
+Entering computeVar() method
+Leaving computeVar() method returning result: 27.04616287227165leaving fitGauss method, sum: 654.7101376554474
+In biGaussian(): dividePt: 33 sum: 616.1132286412923 sum2: 654.7101376554474 total: 1270.8233662967396 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.791252485089464
+Entering computeVar() method
+Leaving computeVar() method returning result: 28.167582720657617leaving fitGauss method, sum: 654.8758020098825
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.79980750721848
+Entering computeVar() method
+Leaving computeVar() method returning result: 26.617366950093654leaving fitGauss method, sum: 635.721378781254
+In biGaussian(): dividePt: 34 sum: 654.8758020098825 sum2: 635.721378781254 total: 1290.5971807911365 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.84836471754212
+Entering computeVar() method
+Leaving computeVar() method returning result: 29.656617393892162leaving fitGauss method, sum: 710.1134232114732
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.842664092664094
+Entering computeVar() method
+Leaving computeVar() method returning result: 26.056443433189298leaving fitGauss method, sum: 611.392012430122
+In biGaussian(): dividePt: 35 sum: 710.1134232114732 sum2: 611.392012430122 total: 1321.5054356415953 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 14.927936821322804
+Entering computeVar() method
+Leaving computeVar() method returning result: 31.685558566785257leaving fitGauss method, sum: 783.0478675034268
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.89631782945737
+Entering computeVar() method
+Leaving computeVar() method returning result: 25.409321314062787leaving fitGauss method, sum: 585.6107727550669
+In biGaussian(): dividePt: 36 sum: 783.0478675034268 sum2: 585.6107727550669 total: 1368.6586402584937 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 15.031434184675835
+Entering computeVar() method
+Leaving computeVar() method returning result: 34.31709122068725leaving fitGauss method, sum: 879.4801948548803
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 48.95910418695229
+Entering computeVar() method
+Leaving computeVar() method returning result: 24.716235574320947leaving fitGauss method, sum: 557.7002353819058
+In biGaussian(): dividePt: 37 sum: 879.4801948548803 sum2: 557.7002353819058 total: 1437.1804302367862 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 15.16015625
+Entering computeVar() method
+Leaving computeVar() method returning result: 39.48017146161213leaving fitGauss method, sum: 1068.7084914131428
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.02938295788443
+Entering computeVar() method
+Leaving computeVar() method returning result: 24.012356379761535leaving fitGauss method, sum: 533.9791128219059
+In biGaussian(): dividePt: 38 sum: 1068.7084914131428 sum2: 533.9791128219059 total: 1602.6876042350486 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 15.402898550724638
+Entering computeVar() method
+Leaving computeVar() method returning result: 45.83940158668316leaving fitGauss method, sum: 1301.058745519835
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.14950495049505
+Entering computeVar() method
+Leaving computeVar() method returning result: 22.927871067941094leaving fitGauss method, sum: 505.27947482095766
+In biGaussian(): dividePt: 39 sum: 1301.058745519835 sum2: 505.27947482095766 total: 1806.3382203407925 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 15.695610687022901
+Entering computeVar() method
+Leaving computeVar() method returning result: 55.958770230988215leaving fitGauss method, sum: 1627.6532165283331
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.28184553660983
+Entering computeVar() method
+Leaving computeVar() method returning result: 21.85836468985693leaving fitGauss method, sum: 481.36913308969577
+In biGaussian(): dividePt: 40 sum: 1627.6532165283331 sum2: 481.36913308969577 total: 2109.022349618029 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 16.15074906367041
+Entering computeVar() method
+Leaving computeVar() method returning result: 67.34172216682649leaving fitGauss method, sum: 1951.9150336764299
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.47185261003071
+Entering computeVar() method
+Leaving computeVar() method returning result: 20.494396185908204leaving fitGauss method, sum: 457.2807851081369
+In biGaussian(): dividePt: 41 sum: 1951.9150336764299 sum2: 457.2807851081369 total: 2409.1958187845667 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 16.663457129756992
+Entering computeVar() method
+Leaving computeVar() method returning result: 85.44992750358156leaving fitGauss method, sum: 2396.0476680450424
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.671555788370874
+Entering computeVar() method
+Leaving computeVar() method returning result: 19.232872078289084leaving fitGauss method, sum: 436.1804476713474
+In biGaussian(): dividePt: 42 sum: 2396.0476680450424 sum2: 436.1804476713474 total: 2832.2281157163898 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 17.473146915224145
+Entering computeVar() method
+Leaving computeVar() method returning result: 104.23113744591063leaving fitGauss method, sum: 2784.2274480446613
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 49.972237343494825
+Entering computeVar() method
+Leaving computeVar() method returning result: 17.569137115313957leaving fitGauss method, sum: 402.61329556647763
+In biGaussian(): dividePt: 43 sum: 2784.2274480446613 sum2: 402.61329556647763 total: 3186.840743611139 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 18.348478354050577
+Entering computeVar() method
+Leaving computeVar() method returning result: 124.06262391493684leaving fitGauss method, sum: 3141.775497300551
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 50.28969834945931
+Entering computeVar() method
+Leaving computeVar() method returning result: 16.032248524340122leaving fitGauss method, sum: 400.0421038986419
+In biGaussian(): dividePt: 44 sum: 3141.775497300551 sum2: 400.0421038986419 total: 3541.8176011991927 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 19.301279405695418
+Entering computeVar() method
+Leaving computeVar() method returning result: 144.44965915666103leaving fitGauss method, sum: 3450.55612343518
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 50.62927414517097
+Entering computeVar() method
+Leaving computeVar() method returning result: 14.62110016184559leaving fitGauss method, sum: 451.4000343725677
+In biGaussian(): dividePt: 45 sum: 3450.55612343518 sum2: 451.4000343725677 total: 3901.9561578077473 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 20.31985731272295
+Entering computeVar() method
+Leaving computeVar() method returning result: 166.84269487752616leaving fitGauss method, sum: 3756.284184685214
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 50.98851308232291
+Entering computeVar() method
+Leaving computeVar() method returning result: 13.374092907389052leaving fitGauss method, sum: 506.4177099439169
+In biGaussian(): dividePt: 46 sum: 3756.284184685214 sum2: 506.4177099439169 total: 4262.701894629131 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 21.485811577752553
+Entering computeVar() method
+Leaving computeVar() method returning result: 191.55685268924364leaving fitGauss method, sum: 4043.2165100618627
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 51.40221147201106
+Entering computeVar() method
+Leaving computeVar() method returning result: 12.212639446475757leaving fitGauss method, sum: 550.6156213343008
+In biGaussian(): dividePt: 47 sum: 4043.2165100618627 sum2: 550.6156213343008 total: 4593.832131396163 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 22.856068743286787
+Entering computeVar() method
+Leaving computeVar() method returning result: 217.58838916295116leaving fitGauss method, sum: 4305.763419638294
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 51.91133384734002
+Entering computeVar() method
+Leaving computeVar() method returning result: 11.07640406348042leaving fitGauss method, sum: 578.9868711413167
+In biGaussian(): dividePt: 48 sum: 4305.763419638294 sum2: 578.9868711413167 total: 4884.750290779611 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 24.44179805434418
+Entering computeVar() method
+Leaving computeVar() method returning result: 238.32392169508526leaving fitGauss method, sum: 4516.706909517227
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 190 result: 52.57439134355275
+Entering computeVar() method
+Leaving computeVar() method returning result: 9.850468707893475leaving fitGauss method, sum: 606.4865210872041
+In biGaussian(): dividePt: 49 sum: 4516.706909517227 sum2: 606.4865210872041 total: 5123.193430604431 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 25.913276568905708
+Entering computeVar() method
+Leaving computeVar() method returning result: 253.6630029381244leaving fitGauss method, sum: 4665.159947789365
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 170 result: 53.313384113166485
+Entering computeVar() method
+Leaving computeVar() method returning result: 8.610517339937713leaving fitGauss method, sum: 614.6232629234319
+In biGaussian(): dividePt: 50 sum: 4665.159947789365 sum2: 614.6232629234319 total: 5279.783210712797 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 27.13888057467824
+Entering computeVar() method
+Leaving computeVar() method returning result: 264.91783460082587leaving fitGauss method, sum: 4308.987551283957
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 140 result: 54.06542056074766
+Entering computeVar() method
+Leaving computeVar() method returning result: 7.4049730477632165leaving fitGauss method, sum: 621.7826474989411
+In biGaussian(): dividePt: 51 sum: 4308.987551283957 sum2: 621.7826474989411 total: 4930.770198782899 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 28.098534903763287
+Entering computeVar() method
+Leaving computeVar() method returning result: 274.2368249312979leaving fitGauss method, sum: 3785.2143051889475
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 120 result: 54.770114942528735
+Entering computeVar() method
+Leaving computeVar() method returning result: 6.341792098063668leaving fitGauss method, sum: 613.409869158417
+In biGaussian(): dividePt: 52 sum: 3785.2143051889475 sum2: 613.409869158417 total: 4398.624174347365 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 28.895029158567066
+Entering computeVar() method
+Leaving computeVar() method returning result: 282.71565053657633leaving fitGauss method, sum: 3515.4316060682313
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 110 result: 55.44989775051125
+Entering computeVar() method
+Leaving computeVar() method returning result: 5.432417694452397leaving fitGauss method, sum: 625.2748755111234
+In biGaussian(): dividePt: 53 sum: 3515.4316060682313 sum2: 625.2748755111234 total: 4140.706481579355 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 29.60953920776071
+Entering computeVar() method
+Leaving computeVar() method returning result: 289.6089803476043leaving fitGauss method, sum: 3423.3479309677555
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 90 result: 56.16094986807388
+Entering computeVar() method
+Leaving computeVar() method returning result: 4.612513502050612leaving fitGauss method, sum: 640.7719037868796
+In biGaussian(): dividePt: 54 sum: 3423.3479309677555 sum2: 640.7719037868796 total: 4064.119834754635 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 30.187056037884766
+Entering computeVar() method
+Leaving computeVar() method returning result: 296.00375630054873leaving fitGauss method, sum: 3285.017943817219
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 80 result: 56.83391003460208
+Entering computeVar() method
+Leaving computeVar() method returning result: 3.973395506539612leaving fitGauss method, sum: 639.610967628541
+In biGaussian(): dividePt: 55 sum: 3285.017943817219 sum2: 639.610967628541 total: 3924.62891144576 minSumDiff: 1270.8233662967396 bestThr: 33
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 210 result: 30.698531306364337
+Entering computeVar() method
+Leaving computeVar() method returning result: 301.84428850728887leaving fitGauss method, sum: 3283.909971464003
+Entering fitGauss() method
+Entering computeMean() method
+Leaving computeMean method maxHeight: 70 result: 57.535885167464116
+Entering computeVar() method
+Leaving computeVar() method returning result: 3.493582170524889leaving fitGauss method, sum: 641.478085077613
+In biGaussian(): dividePt: 56 sum: 3283.909971464003 sum2: 641.478085077613 total: 3925.3880565416157 minSumDiff: 1270.8233662967396 bestThr: 33
+Exiting biGaussian method, minSumDiff: 1270.8233662967396 bestThr: 33
+Entering plotGaussGraph() method
+Leaving plotGaussGraph() method
+Entering plotGapGraph() method
+leaving plotGaussGraph()
