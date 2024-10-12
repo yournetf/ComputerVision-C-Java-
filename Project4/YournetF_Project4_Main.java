@@ -65,17 +65,21 @@ class Morphology{
     }
 
     public void loadImg(BufferedReader inFileReader, int[][] zeroFramedAry) throws IOException {
-        for(int i = rowOrigin; i < zeroFramedAry.length-1; i++){
+        for (int i = rowOrigin; i < numImgRows + rowOrigin; i++) {
             String currentLine = inFileReader.readLine();
             StringTokenizer currentLineTokenizer = new StringTokenizer(currentLine);
-            for(int j = colOrigin; j < zeroFramedAry[i].length-1; j++){
-                zeroFramedAry[i][j] = Integer.parseInt(currentLineTokenizer.nextToken());
+            for (int j = colOrigin; j < numImgCols + colOrigin; j++) {
+                if (currentLineTokenizer.hasMoreTokens()) {
+                    zeroFramedAry[i][j] = Integer.parseInt(currentLineTokenizer.nextToken());
+                }
             }
         }
     }
 
+
+
     public void binaryPrettyPrint(int[][] inAry, BufferedWriter prettyPrintFile ) throws IOException {
-        prettyPrintFile.write("// " + inAry.length + " " + inAry[0].length + " 0" + " 1" + "\n");
+        prettyPrintFile.write(inAry.length + " " + inAry[0].length + " 0" + " 1" + "\n");
         for(int i = 0; i < inAry.length;i++){
             for(int j = 0; j < inAry[i].length; j++){
                 if(inAry[i][j] == 0) prettyPrintFile.write(". ");
@@ -95,7 +99,7 @@ class Morphology{
     }
 
     public void process1(BufferedWriter prettyPrintFile) throws IOException {
-        String filename = "1st Run Results/dilationOutFile.txt";
+        String filename = "dilationOutFile.txt";
         BufferedWriter outfile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -140,7 +144,7 @@ class Morphology{
     }
 
     public void aryToFile(int[][] inAry, BufferedWriter outFile) throws IOException {
-        outFile.write("// " + numImgRows + " " + numImgCols + " " + imgMin + " " + imgMax + "\n");
+        outFile.write( numImgRows + " " + numImgCols + " " + imgMin + " " + imgMax + "\n");
         for(int i = 0; i < inAry.length; i++){
             for (int j = 0; j < inAry[i].length; j++){
                 outFile.write(inAry[i][j] + " ");
@@ -150,7 +154,7 @@ class Morphology{
     }
 
     public void process2(BufferedWriter prettyPrintFile) throws IOException {
-        String filename = "1st Run Results/erosionOutFile.txt";
+        String filename = "erosionOutFile.txt";
         BufferedWriter outfile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -204,7 +208,7 @@ class Morphology{
     }
 
     public void process3(BufferedWriter prettyPrintFile) throws IOException {
-        String filename = "1st Run Results/openingOutFile.txt";
+        String filename = "openingOutFile.txt";
         BufferedWriter outfile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -221,7 +225,7 @@ class Morphology{
     }
 
     public void process4(BufferedWriter prettyPrintFile) throws IOException {
-        String filename = "1st Run Results/closingOutFile.txt";
+        String filename = "closingOutFile.txt";
         BufferedWriter outFile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -233,7 +237,7 @@ class Morphology{
     }
 
     public void process5(BufferedWriter prettyPrintFile) throws IOException {
-        String filename = "1st Run Results/dilationOutFile.txt";
+        String filename = "dilationOutFile.txt";
         BufferedWriter outFile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -243,7 +247,7 @@ class Morphology{
 
         outFile.close();
 
-        filename = "1st Run Results/erosionOutFile.txt";
+        filename = "erosionOutFile.txt";
         outFile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -253,7 +257,7 @@ class Morphology{
 
         outFile.close();
 
-        filename = "1st Run Results/openingOutFile.txt";
+        filename = "openingOutFile.txt";
         outFile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -263,7 +267,7 @@ class Morphology{
 
         outFile.close();
 
-        filename = "1st Run Results/closingOutFile.txt";
+        filename = "closingOutFile.txt";
         outFile = new BufferedWriter(new FileWriter(filename));
 
         zero2DAry(morphAry, rowSize, colSize);
@@ -371,14 +375,19 @@ public class YournetF_Project4_Main {
         switch (choice){
             case 1:
                 morphology.process1(prettyPrintFile);
+                break;
             case 2:
                 morphology.process2(prettyPrintFile);
+                break;
             case 3:
                 morphology.process3(prettyPrintFile);
+                break;
             case 4:
                 morphology.process4(prettyPrintFile);
+                break;
             case 5:
                 morphology.process5(prettyPrintFile);
+                break;
         }
 
         inFileReader.close();
