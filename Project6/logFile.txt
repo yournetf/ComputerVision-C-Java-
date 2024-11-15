@@ -1,0 +1,4 @@
+entering connected4 method
+Entering connected4Pass1()Leaving connected4Pass1()After connected4 pass1, newLabel = 0
+Entering connected4Pass2()Leaving connected4Pass2()After connected4 pass2, newLabel = 0
+Leaving connected4 method
