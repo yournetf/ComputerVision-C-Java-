@@ -161,7 +161,7 @@ class Thinning{
         if( (ary[i-1][j] == 0 && ary[i+1][j] == 0)
                 || (ary[i][j-1] == 0 && ary[i][j+1] == 0)
                 || (ary[i-1][j] == 0 && ary[i][j-1] == 0 && ary[i-1][j-1] == 1)
-                || (ary[i-1][j] == 0 && ary[i][j+1] == 0 && ary[i+1][j+1] == 1)
+                || (ary[i-1][j] == 0 && ary[i][j+1] == 0 && ary[i-1][j+1] == 1)
                 || (ary[i][j-1] == 0 && ary[i+1][j] == 0 && ary[i+1][j-1] == 1)
                 || (ary[i+1][j] == 0 && ary[i][j+1] == 0 && ary[i+1][j+1] == 1)
         ){
