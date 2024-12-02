@@ -12,7 +12,7 @@ Project 1 (C++):
   selected threshold value, therefore isolating the object and removing excess noise.
   
 (https://www.youtube.com/watch?v=cJ3befJoD4w&ab_channel=FrankYournet)
-
+_____________________________________________________________________________
 Project 2 (Java):
   Accepts a histogram representing the the values of a grey-scale image as input. Then, uses this histogram to create Gaussian Curves and display the displacement between the calculated Gaussian Curves and the actual histogram data.
 
