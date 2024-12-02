@@ -3,7 +3,7 @@ This repository is a collection of projects completed for my Computer Vision cla
 ***Disclaimer***
 Each directory has its own "specs" PDF that will list the command line arguments necessary for execution.
 
-Below are the descriptions and visualizations of what each project does.
+Below are the descriptions and visualizations for each project.
 -----------------------------------------------------------------------------
 Project 1 (C++):
   
