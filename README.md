@@ -29,4 +29,10 @@ Project 4 (Java):
 (https://www.youtube.com/watch?v=1E6GOD2foOM&t=30s&ab_channel=FrankYournet)
 
 _____________________________________________________________________________
+Project 5 (C++):
+  Accepts a binary image as input and then undergoes the whole process of image compression and decompression. This is done with the help of the "distance transform" algorithm. The original binary image's object pixels are converted into values that represent an individual pixel's distance from the nearest background pixel. The local maxima of these values neighbors is then preserved to form a skeleton of the objects in the image. These locations and values are then stored in a text file for compression that is tiny in comparison, but lacks nothing from the original image. The reverse process is done to unpack this file and return the original image.
+
+(https://www.youtube.com/watch?v=MFbSKD0XCeA&ab_channel=FrankYournet)
+
+_____________________________________________________________________________
 
