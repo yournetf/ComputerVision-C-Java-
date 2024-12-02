@@ -23,5 +23,10 @@ Project 3 (C++):
 
 (https://www.youtube.com/watch?v=d2qvpvd_27o&ab_channel=FrankYournet)
 _____________________________________________________________________________
-  
-  
+Project 4 (Java):
+  Accepts a binary image as input, along with a structuring elements. Structuring elements are used to implement dilation, erosion, opening, and closing algorithms. These algorithms are used to clean the noise (salt and peppers) within an image. As the video scrolls through files, you should notice changes in the object pixels but not in the overall structure. The first transition shown is from the "opening" algorithm and is typically the one used for noise supression, but each one has its own beneficial use case.
+
+(https://www.youtube.com/watch?v=1E6GOD2foOM&t=30s&ab_channel=FrankYournet)
+
+_____________________________________________________________________________
+
