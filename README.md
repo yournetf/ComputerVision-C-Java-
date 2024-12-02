@@ -11,4 +11,4 @@ Project 1:
   most likely to be the boundary between an object pixel and background pixel. The original image is then converted into a binary image that only displays pixels over this     
   selected threshold value, therefore isolating the object and removing excess noise.
   
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title"](https://www.youtube.com/watch?v=cJ3befJoD4w&ab_channel=FrankYournet))
+(https://www.youtube.com/watch?v=cJ3befJoD4w&ab_channel=FrankYournet))
