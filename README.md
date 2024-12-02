@@ -1,5 +1,9 @@
 This repository is a collection of projects completed for my Computer Vision class at Queens College.
 
+For running locally in command line:
+C++ files are compiled with ***g++ [fileName.cpp] -o [fileAlias.out]*** and executed with ***./[fileAlias.out]***
+Java files are compiled with ***javac [fileName.java]*** and executed with ***java [fileName]***
+
 ***Disclaimer***
 Each directory has its own "specs" PDF that will list the command line arguments necessary for execution.
 
